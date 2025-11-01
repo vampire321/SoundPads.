@@ -4,7 +4,7 @@ export default function Pad(props){
     return(
         <button style={{backgroundColor: props.color}} 
         className={on ? "on": null}
-        onClick={toggle}>
+        onClick={props.toggle}>
         </button>
     )
 }
